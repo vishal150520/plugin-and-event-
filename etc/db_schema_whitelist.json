@@ -1,0 +1,12 @@
+{
+    "popupdata": {
+        "column": {
+            "id": true,
+            "name": true,
+            "email": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
