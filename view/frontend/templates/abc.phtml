@@ -70,6 +70,7 @@ if($values==1):
 				        var email = $("#email").val();
                         $.ajax({
                             url: "<?php echo $block->getUrl('verify/index/save') ?>", 
+                            dataType:JSON,
                             data: {
 						        name: name,
 						        email: email,

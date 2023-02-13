@@ -3,8 +3,7 @@
     <body>
         <referenceContainer name="content">
             <block class="Bluethink\Verify\Block\Index\Index" 
-            name="ikdsg" template="Bluethink_Verify::abc.phtml" >
-          
+            name="ikdsg" template="Bluethink_Verify::abc.phtml" > 
         </block>    
         </referenceContainer>
     </body>

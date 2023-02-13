@@ -42,7 +42,7 @@ class Save extends \Magento\Framework\App\Action\Action
         $test->setData($data);
         if($test->save()){
              $resultJson =  $this->resultJsonFactory->create();
-             $result = $resultJson->setData("thank you for submitting.");
+             $result = $resultJson->setData("Data Save.");
              return $result;
             // $this->messageManager->addSuccessMessage(__('You saved data.'));
             //  return $response = [
